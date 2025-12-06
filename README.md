@@ -204,13 +204,3 @@ All 3 model wrappers support:
 * Automatic JSON repair
 * Strict schema enforcement
 * Persian medical formatting
-
----
-
-## 📌 Notes for Deployment
-
-* Recommend placing Nginx or Traefik in front of API for rate limiting
-* Supports CORS by default
-* Error handling shows detailed 50x messages for debugging
-* Timezone converted to Iran time using `Asia/Tehran`
-  (implemented in `main.py`) 
