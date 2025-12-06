@@ -17,14 +17,14 @@ This API is suitable for:
 ```
 ChatGPT-API-Doctor-Assistance/
 │
-├── main.py                  # FastAPI app & endpoints                        :contentReference[oaicite:0]{index=0}
-├── bot_client.py            # GPT-5 client with schema enforcement           :contentReference[oaicite:1]{index=1}
-├── gpt4o_bot_client.py      # GPT-4o client (lighter alternative)            :contentReference[oaicite:2]{index=2}
-├── gpt5_1_bot_client.py     # GPT-5.1 client with advanced parsing           :contentReference[oaicite:3]{index=3}
-├── requirements.txt         # Python dependencies                            :contentReference[oaicite:4]{index=4}
+├── main.py                  # FastAPI app & endpoints                  
+├── bot_client.py            # GPT-5 client with schema enforcement         
+├── gpt4o_bot_client.py      # GPT-4o client (lighter alternative)          
+├── gpt5_1_bot_client.py     # GPT-5.1 client with advanced parsing           
+├── requirements.txt         # Python dependencies                          
 ├── docker-compose.yml       # Deployment orchestrator
 ├── Dockerfile               # Build production container
-└── README.md                # (this file)
+└── README.md         
 ```
 
 ---
@@ -72,7 +72,7 @@ Packages include FastAPI, Uvicorn, Pydantic, and OpenAI (defined in `requirement
 Before running, configure:
 
 ```bash
-export OUR_API_KEY="<Your_OpenAI_Key>"
+export OUR_API_KEY="<OUR_API_KEY>"
 export MODEL="gpt-5.1"     # or: gpt-5 / gpt-4o
 export MAX_RETRIES=3
 export OPENAI_TIMEOUT=120
