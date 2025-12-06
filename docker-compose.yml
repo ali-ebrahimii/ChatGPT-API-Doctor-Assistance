@@ -1,0 +1,40 @@
+services:
+  chatbot-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        HTTP_PROXY: "http://pp.saman.health:23456"
+        HTTPS_PROXY: "http://pp.saman.health:23456"
+        NO_PROXY: "localhost,127.0.0.1"
+    container_name: clinical-chatbot-api
+    ports:
+      - "8035:8000"
+    environment:
+      - HTTP_PROXY=http://5.182.46.67:23456
+      - HTTPS_PROXY=http://5.182.46.67:23456
+      - NO_PROXY=localhost,127.0.0.1
+      - OPENAI_API_KEY=${OUR_API_KEY}
+      - MODEL=${MODEL:-gpt-5.1}
+      - MAX_RETRIES=${MAX_RETRIES:-2}
+      - OPENAI_TIMEOUT=${OPENAI_TIMEOUT:-120}
+    volumes:
+      - .:/app
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/healthz"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - backend
+      - frontend
+
+networks:
+  backend:
+    external: true
+    name: ba_network
+  frontend:
+    external: true
+    name: fr_network
