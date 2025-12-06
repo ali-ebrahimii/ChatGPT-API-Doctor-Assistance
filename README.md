@@ -2,7 +2,7 @@
 
 ## Overview
 
-This service is a FastAPI-based microservice that receives structured JSON payloads describing patient information, normalizes and formats the data, and sends it to an LLM (e.g., OpenAI GPT-4) to receive structured diagnostic suggestions and next steps **in Persian**.
+This service is a FastAPI-based microservice that receives structured JSON payloads describing patient information, normalizes and formats the data, and sends it to an LLM (e.g., OpenAI GPT-4o, GPT-5, GPT-5.1) to receive structured diagnostic suggestions and next steps **in Persian**.
 
 It exposes a RESTful API with automatic Swagger documentation and is ready to deploy in any production environment (bare metal, Docker, or systemd).
 
