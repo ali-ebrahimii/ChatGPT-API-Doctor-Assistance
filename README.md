@@ -1,127 +1,128 @@
-# Doctor's Assistant API – Deployment Guide
+# Doctor’s Assistant API – Deployment Guide
 
-## Overview
+A production-ready **FastAPI service** that converts raw patient intake data into **structured clinical summaries** using OpenAI models (GPT-4o, GPT-5, GPT-5.1).
+The output is *always valid JSON in Persian*, following strict schema and safety rules.
 
-This service is a FastAPI-based microservice that receives structured JSON payloads describing patient information, normalizes and formats the data, and sends it to an LLM (e.g., OpenAI GPT-4o, GPT-5, GPT-5.1) to receive structured diagnostic suggestions and next steps **in Persian**.
+This API is suitable for:
 
-It exposes a RESTful API with automatic Swagger documentation and is ready to deploy in any production environment (bare metal, Docker, or systemd).
+* Clinical triage assistants
+* Doctor support chatbots
+* Hospital workflow automation
+* Mobile health apps
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```
-clinical-intake-api/
+ChatGPT-API-Doctor-Assistance/
 │
-├── main.py              # FastAPI application (entry point)
-├── bot_client.py        # Handles communication with OpenAI API
-├── requirements.txt     # Python dependencies
-└── README.md            # (this file)
+├── main.py                  # FastAPI app & endpoints                        :contentReference[oaicite:0]{index=0}
+├── bot_client.py            # GPT-5 client with schema enforcement           :contentReference[oaicite:1]{index=1}
+├── gpt4o_bot_client.py      # GPT-4o client (lighter alternative)            :contentReference[oaicite:2]{index=2}
+├── gpt5_1_bot_client.py     # GPT-5.1 client with advanced parsing           :contentReference[oaicite:3]{index=3}
+├── requirements.txt         # Python dependencies                            :contentReference[oaicite:4]{index=4}
+├── docker-compose.yml       # Deployment orchestrator
+├── Dockerfile               # Build production container
+└── README.md                # (this file)
 ```
 
 ---
 
-## Environment
+## 🚀 What This API Does
 
-* The chatbot_api environment was installed on the server. To install dependencies, run the below code:
+1. Receives **raw patient JSON**
+2. Converts it into a unified **user_slots** text
+3. Sends the text to the LLM (GPT-4o, GPT-5, or GPT-5.1)
+4. Model returns a **strict structured JSON** containing:
+
+   * clinical_summary
+   * differential_dx
+   * next_steps
+   * suggested_specialist
+   * follow_up_questions
+   * red_flags
+   * when_to_seek_care
+   * handoff_notes
+   * safety_disclaimer
+
+All formatting rules, schema validation, and JSON repair are handled inside:
+
+* `bot_client.py` (GPT-5) 
+* `gpt4o_bot_client.py` (GPT-4o) 
+* `gpt5_1_bot_client.py` (GPT-5.1) 
+
+---
+
+## 🔧 Requirements
+
+Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
 
----
+Packages include FastAPI, Uvicorn, Pydantic, and OpenAI (defined in `requirements.txt`).
 
-## Environment Variables
-
-Before starting the API, set the following from the env_variables.txt file:
-
-```bash
-export OUR_API_KEY="<Our_API_KEY>"
-export MODEL="gpt-5"
-export MAX_RETRIES=2
-export CLIENT_TIMEOUT=120
-```
-
-## Run the API (Development Mode)
-
-You can start the API manually using:
-
-```bash
-uvicorn main:app --host 0.0.0.0 --port 8080 --workers 2
-```
-
-* The API will listen on **port 8080**.
-* It will be accessible at: `http://<SERVER_IP>:8080`
 
 ---
 
-## Run the API (Production Mode)
+## 🔑 Environment Variables
 
-### Option A – With **systemd** (recommended for bare metal)
-
-Create a unit file:
-
-```ini
-# /etc/systemd/system/clinical-intake.service
-[Unit]
-Description=Clinical Intake API
-After=network.target
-
-[Service]
-User=ai
-WorkingDirectory=/home/ai/clinical-intake-api
-Environment=OPENAI_API_KEY=<your_api_key_here>
-Environment=MODEL=gpt-5
-Environment=MAX_RETRIES=2
-ExecStart=/home/ai/clinical-intake-api/venv/bin/uvicorn main:app --host 0.0.0.0 --port 8080 --workers 2
-Restart=always
-RestartSec=5
-
-[Install]
-WantedBy=multi-user.target
-```
-
-Then run:
+Before running, configure:
 
 ```bash
-sudo systemctl daemon-reload
-sudo systemctl enable clinical-intake
-sudo systemctl start clinical-intake
-sudo systemctl status clinical-intake
+export OUR_API_KEY="<Your_OpenAI_Key>"
+export MODEL="gpt-5.1"     # or: gpt-5 / gpt-4o
+export MAX_RETRIES=3
+export OPENAI_TIMEOUT=120
 ```
 
 ---
 
-### Option B – With **Docker**
-
-Create a `Dockerfile`:
-
-```dockerfile
-FROM python:3.11-slim
-
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-
-COPY . .
-EXPOSE 8080
-
-ENV MODEL=gpt-5
-ENV MAX_RETRIES=2
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080", "--workers", "2"]
-```
-
-Build and run:
+## ▶️ Run the API (Development)
 
 ```bash
-docker build -t clinical-intake-api .
-docker run -d -p 8080:8080 -e OPENAI_API_KEY=<your_api_key_here> clinical-intake-api
+uvicorn main:app --host 0.0.0.0 --port 8000 --workers 2
+```
+
+API will start at:
+
+```
+http://localhost:8000
+```
+
+Swagger Docs:
+
+```
+http://localhost:8000/docs
 ```
 
 ---
 
-## Endpoints
+## 🐳 Run with Docker (Production)
 
-### 1. Health check
+### Build:
+
+```bash
+docker build -t doctor-assistant-api .
+```
+
+### Run:
+
+```bash
+docker run -d \
+  -p 8000:8000 \
+  -e OUR_API_KEY="<your_key>" \
+  -e MODEL="gpt-5.1" \
+  doctor-assistant-api
+```
+
+---
+
+## 🧠 API Endpoints
+
+### ✓ Health Check
 
 ```
 GET /healthz
@@ -133,44 +134,42 @@ Response:
 {"status": "healthy"}
 ```
 
-### 2. Analyze patient data
+---
+
+### ✓ Analyze Patient Data
 
 ```
-POST /triage/analyze
+POST /analyze
 Content-Type: application/json
 ```
+
+The request is validated by the `IntakePayload` model in `main.py`.
+
 
 Example request:
 
 ```json
 {
-  "age": 52,
-  "sex": "female",
-  "chief_complaint": "3-day history of pleuritic chest pain and cough.",
-  "duration": 2,
-  "past_medical_history": "HTN, type 2 diabetes",
-  "medications": "lisinopril 20 mg qd, metformin 500 mg BID",
-  "allergies": "penicillin (hives)",
-  "social_history": "smoking: 10 pack-years, quit 5 yrs ago",
-  "temp": 37,
-  "BP_S": 150,
-  "BP_D": 80,
-  "HR": 92,
-  "SpO2": 98
+  "age": 45,
+  "sex": "male",
+  "chief_complaint": "chest pain for 2 hours",
+  "past_medical_history": "HTN",
+  "SpO2": 94,
+  "HR": 110
 }
 ```
 
-Example response:
+Example response (from GPT-5.1):
 
 ```json
 {
   "message": "ok",
-  "user_slots": "CC (chief complaint): ...",
+  "user_slots": "CC: ...",
   "bot_raw": {
-    "clinical_summary": "بیمار با درد پلوریتیک و سرفه مراجعه کرده...",
+    "clinical_summary": "...",
     "differential_dx": [...],
     "next_steps": [...],
-    "suggested_specialist": "پزشک داخلی",
+    "suggested_specialist": "کاردیولوژی",
     "follow_up_questions": [...],
     "red_flags": [...],
     "when_to_seek_care": "...",
@@ -182,20 +181,31 @@ Example response:
 
 ---
 
-## Swagger API Docs
+## 🧪 Model Options
 
-After the server starts, visit:
- `http://<SERVER_IP>:8080/docs`
+You can switch models by editing this line in `main.py`:
 
-* Interactive UI to test all endpoints.
-* Automatically generated OpenAPI JSON: `http://<SERVER_IP>:8080/openapi.json`
+```python
+bot_json = ask_bot_5_1(user_slots)  # GPT-5.1 (current default)
+# bot_json = ask_bot(user_slots)    # GPT-5
+# bot_json = ask_bot_4o(user_slots) # GPT-4o
+```
+
+All 3 model wrappers support:
+
+* Retry logic
+* Automatic JSON repair
+* Strict schema enforcement
+* Persian medical formatting
 
 ---
 
-## Observability
+## 📌 Notes for Deployment
 
-* **Health check:** `GET /healthz`
-* **Logs:** Managed by `systemd`, `docker logs`, or forwarded to your centralized logging solution.
-* **Rate limiting / auth:** Recommend applying at the reverse proxy (e.g., Nginx or API Gateway) level.
+* Recommend placing Nginx or Traefik in front of API for rate limiting
+* Supports CORS by default
+* Error handling shows detailed 50x messages for debugging
+* Timezone converted to Iran time using `Asia/Tehran`
+  (implemented in `main.py`) 
 
-
+Just tell me!
