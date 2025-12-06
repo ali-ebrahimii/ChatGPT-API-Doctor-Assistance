@@ -150,12 +150,19 @@ Example request:
 
 ```json
 {
-  "age": 45,
-  "sex": "male",
-  "chief_complaint": "chest pain for 2 hours",
-  "past_medical_history": "HTN",
-  "SpO2": 94,
-  "HR": 110
+  "age": 52,
+  "sex": "female",
+  "chief_complaint": "3-day history of pleuritic chest pain and cough.",
+  "duration": 2,
+  "past_medical_history": "HTN, type 2 diabetes",
+  "medications": "lisinopril 20 mg qd, metformin 500 mg BID",
+  "allergies": "penicillin (hives)",
+  "social_history": "smoking: 10 pack-years, quit 5 yrs ago",
+  "temp": 37,
+  "BP_S": 150,
+  "BP_D": 80,
+  "HR": 92,
+  "SpO2": 98
 }
 ```
 
@@ -164,12 +171,12 @@ Example response (from GPT-5.1):
 ```json
 {
   "message": "ok",
-  "user_slots": "CC: ...",
+  "user_slots": "CC (chief complaint): ...",
   "bot_raw": {
-    "clinical_summary": "...",
+    "clinical_summary": "بیمار با درد پلوریتیک و سرفه مراجعه کرده...",
     "differential_dx": [...],
     "next_steps": [...],
-    "suggested_specialist": "کاردیولوژی",
+    "suggested_specialist": "پزشک داخلی",
     "follow_up_questions": [...],
     "red_flags": [...],
     "when_to_seek_care": "...",
