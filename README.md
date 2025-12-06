@@ -207,5 +207,3 @@ All 3 model wrappers support:
 * Error handling shows detailed 50x messages for debugging
 * Timezone converted to Iran time using `Asia/Tehran`
   (implemented in `main.py`) 
-
-Just tell me!
