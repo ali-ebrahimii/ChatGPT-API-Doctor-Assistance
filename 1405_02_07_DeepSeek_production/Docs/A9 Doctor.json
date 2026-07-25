@@ -1,0 +1,89 @@
+{
+  "status": 200,
+  "error": null,
+  "data": {
+    "generalRecord": {
+      "id": "9351564d-8443-4333-b2a1-b6277e0fbd4d",
+      "is_visible": true,
+      "is_deleted": false,
+      "deleted_at": null,
+      "created_at": "2026-05-10T05:59:46.709Z",
+      "updated_at": "2026-05-10T05:59:46.709Z",
+      "hash_record": null,
+      "user": "370dc844-83b3-4e76-b143-c2b0ab47b882",
+      "allergies": [],
+      "underlying_conditions": [],
+      "hospitalizations": [],
+      "surgical_histories": [],
+      "family_records": [],
+      "ehr_prescription": []
+    },
+    "visitRecord": {
+      "id": "04467a87-985c-4b70-9a44-71ee9ebb9518",
+      "is_visible": true,
+      "is_deleted": false,
+      "deleted_at": null,
+      "created_at": "2026-05-10T05:57:14.808Z",
+      "updated_at": "2026-05-10T07:00:06.227Z",
+      "hash_record": null,
+      "user": "370dc844-83b3-4e76-b143-c2b0ab47b882",
+      "slot_id": "356a408f-8432-4123-a766-b415b0bbb1da",
+      "visit": "4751082d-bcd7-4525-93f7-0eb74035ad2e",
+      "visit_status": "completed",
+      "patient_chief_complaint": [
+        "درد عضلانی/مفصلی"
+      ],
+      "patient_notes": null,
+      "lab_test_records": [
+        {
+          "id": "5861a1cf-f8ba-471e-b406-6cdb86bae764",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-05-10T05:56:44.106Z",
+          "updated_at": "2026-05-10T05:57:14.808Z",
+          "hash_record": null,
+          "type": {
+            "id": "ee7f3833-7b26-4692-82d3-43ec5e66a949",
+            "is_visible": true,
+            "is_deleted": false,
+            "deleted_at": null,
+            "created_at": "2026-02-07T10:17:59.403Z",
+            "updated_at": "2026-02-07T10:17:59.403Z",
+            "hash_record": null,
+            "name": "آزمایش",
+            "icon": "https://api-minio.saman.health/grin/c6ade611-e5d3-4add-a09a-13023caaf8f3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=samansalamat%2F20260524%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260524T044102Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=8efaec59958a83fee3ff412e5b6bc6e461a3dae381a91f006b0b6fbc8faca98b"
+          },
+          "user": "370dc844-83b3-4e76-b143-c2b0ab47b882",
+          "files": [
+            "6ec17047-3fcc-4513-9a5a-c97d4154e5d8.pdf"
+          ],
+          "do_date": "2026-04-16T00:00:00.000Z",
+          "description": ""
+        }
+      ],
+      "assistant_visit_record": null,
+      "doctor_visit_record": {
+        "id": "9e74d210-0b45-4ae6-86bf-c09c5736544c",
+        "is_visible": true,
+        "is_deleted": false,
+        "deleted_at": null,
+        "created_at": "2026-05-10T07:00:06.221Z",
+        "updated_at": "2026-05-10T07:00:06.221Z",
+        "hash_record": null,
+        "doctor_prescription": "Pozarex 25 bd\nathorstatin 20 Daily\nCurcumin daily\ncelecoxib for acute pain control/ alternative - indomethacin\ncolchicine if not found - prednisolone 5",
+        "doctor_chief_complaint": "درخواست تمدید نسخه",
+        "present_illness": "شکایت از عود مجدد درد شست پا و زانو (وابسته به نقرس)",
+        "assessment": "Acute Gout Episode with arthritic pain",
+        "diagnosis": "Acute Gout Episode with arthritic pain",
+        "treatment_plan": "Pozarex 25 bd\nathorstatin 20 Daily\nCurcumin daily\ncelecoxib for acute pain control/ alternative - indomethacin\ncolchicine if not found - prednisolone 5",
+        "prescription_tracking_code": "67638",
+        "referral_need": null,
+        "referral_specialty": null,
+        "follow_up_need": null,
+        "follow_up_date": null
+      }
+    }
+  },
+  "message": "EHR details fetched successfully"
+}

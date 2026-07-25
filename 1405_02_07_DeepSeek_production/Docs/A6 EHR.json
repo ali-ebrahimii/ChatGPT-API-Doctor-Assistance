@@ -1,0 +1,174 @@
+{
+  "status": 200,
+  "error": null,
+  "data": {
+    "generalRecord": {
+      "id": "c24d40b7-5116-4748-b8fe-da82454bc84b",
+      "is_visible": true,
+      "is_deleted": false,
+      "deleted_at": null,
+      "created_at": "2026-02-18T02:33:42.717Z",
+      "updated_at": "2026-02-18T02:33:42.717Z",
+      "hash_record": null,
+      "user": "79c969f1-44ba-4b52-9175-b915a8f736cb",
+      "allergies": [],
+      "underlying_conditions": [
+        {
+          "id": "1c710fc2-60da-4e4b-99e1-96651ec1369d",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-25T12:19:53.713Z",
+          "updated_at": "2026-04-25T12:19:53.713Z",
+          "hash_record": null,
+          "disease": {
+            "id": "1eb1d965-ea1c-42ed-ae92-a60c9242d707",
+            "is_visible": true,
+            "is_deleted": false,
+            "deleted_at": null,
+            "created_at": "2026-02-08T02:18:37.002Z",
+            "updated_at": "2026-02-08T02:18:37.002Z",
+            "hash_record": null,
+            "fa_name": "فشار خون بالا",
+            "en_name": "Essential Hypertension",
+            "short_name": "HTN",
+            "code": "I10",
+            "disease_type": [
+              "non_infectious",
+              "underlying_condition"
+            ]
+          },
+          "note": "",
+          "severity": "خفیف",
+          "onset_date": "2026-04-25T15:56:17.851Z",
+          "resolved_date": null,
+          "status": "active"
+        }
+      ],
+      "hospitalizations": [],
+      "surgical_histories": [],
+      "family_records": [
+        {
+          "id": "b0db52bd-cfb1-4b40-a293-e9ae112c1b66",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-25T12:19:53.732Z",
+          "updated_at": "2026-04-25T12:19:53.732Z",
+          "hash_record": null,
+          "relation": "خواهر-برادر",
+          "disease": {
+            "id": "e52ffdf5-a0cf-4328-bc72-5d704f446f1b",
+            "is_visible": true,
+            "is_deleted": false,
+            "deleted_at": null,
+            "created_at": "2026-02-08T07:14:07.134Z",
+            "updated_at": "2026-02-08T07:14:07.134Z",
+            "hash_record": null,
+            "fa_name": "سابقه خانوادگی بیماری ایسکمیک قلبی",
+            "en_name": "Family history of ischaemic heart disease and other diseases of the circulatory system",
+            "short_name": "",
+            "code": "Z82.4",
+            "disease_type": [
+              "family_history"
+            ]
+          }
+        }
+      ],
+      "ehr_prescription": [
+        {
+          "id": "ea2057b5-641c-4a81-b4cc-9cf57ccfbbdd",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-25T12:19:53.744Z",
+          "updated_at": "2026-04-25T12:19:53.744Z",
+          "hash_record": null,
+          "drug": "VALZOMIX-HCT TABLET ORAL 5 mg/160 mg/12.5 mg",
+          "usage": "روزی 1 بار"
+        }
+      ]
+    },
+    "visitRecord": {
+      "id": "00621eb9-9a8a-408b-aade-1e06f358e16a",
+      "is_visible": true,
+      "is_deleted": false,
+      "deleted_at": null,
+      "created_at": "2026-04-25T11:59:59.379Z",
+      "updated_at": "2026-04-25T13:28:15.091Z",
+      "hash_record": null,
+      "user": "79c969f1-44ba-4b52-9175-b915a8f736cb",
+      "slot_id": "f85a14ca-5025-4442-97ee-183db3013c98",
+      "visit": "23b5ec2a-143d-44fb-ab30-a8ed458a0798",
+      "visit_status": "completed",
+      "patient_chief_complaint": [
+        "سؤالات سلامت"
+      ],
+      "patient_notes": null,
+      "lab_test_records": [
+        {
+          "id": "edc58dbc-c3fe-4549-8a8b-689c62cc72bd",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-25T11:59:18.219Z",
+          "updated_at": "2026-04-25T11:59:59.379Z",
+          "hash_record": null,
+          "type": {
+            "id": "ee7f3833-7b26-4692-82d3-43ec5e66a949",
+            "is_visible": true,
+            "is_deleted": false,
+            "deleted_at": null,
+            "created_at": "2026-02-07T10:17:59.403Z",
+            "updated_at": "2026-02-07T10:17:59.403Z",
+            "hash_record": null,
+            "name": "آزمایش",
+            "icon": "https://api-minio.saman.health/grin/c6ade611-e5d3-4add-a09a-13023caaf8f3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=samansalamat%2F20260524%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260524T044102Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=8efaec59958a83fee3ff412e5b6bc6e461a3dae381a91f006b0b6fbc8faca98b"
+          },
+          "user": "79c969f1-44ba-4b52-9175-b915a8f736cb",
+          "files": [
+            "ca93fb07-4d70-4079-9ee1-bd9e292b1939.pdf"
+          ],
+          "do_date": "2026-04-25T00:00:00.000Z",
+          "description": "سلام وقتتون بخیر میخوام تک تک فهرست آزمایشاتی که تو فایل خدمتتون ارسال کردم رو برام بنویسید لطفا به کد ملی 6178713517 مرضیه جان جانه _ قرص فشارمم تموم شده اونم ممنون میشم بنویسید : والزودک _ اچ تی سی ( بیمه پایه ندارم فقط بیمه تکمیلی سامان )"
+        }
+      ],
+      "assistant_visit_record": {
+        "id": "81ca60ca-2199-4375-8ae4-e39a0c6b4b48",
+        "is_visible": true,
+        "is_deleted": false,
+        "deleted_at": null,
+        "created_at": "2026-04-25T12:19:54.159Z",
+        "updated_at": "2026-04-25T12:19:54.171Z",
+        "hash_record": null,
+        "assistant_chief_complaint": "خانم 51 ساله مورد هایپرتنشن جهت چکاپ و درخواست ازمایش درخواست ویزیت کردند\nاخرین ازمایش برای 2 سال پیش بوده که کم خونی ذکر شده بوده\nبرای مورد فشار خون Valsodec-hct مصرف می کنند روزی 1 یک عدد \nو اخرین فشار 15/12 بوده است",
+        "assistant": "505c1884-e17b-4878-ad81-54c6e1c3241d",
+        "height": "154",
+        "weight": "90",
+        "bmi": "37.95",
+        "assitant_notes": "خانم 51 ساله مورد هایپرتنشن جهت چکاپ و درخواست ازمایش درخواست ویزیت کردند\nاخرین ازمایش برای 2 سال پیش بوده که کم خونی ذکر شده بوده\nبرای مورد فشار خون Valsodec-hct مصرف می کنند روزی 1 یک عدد \nو اخرین فشار 15/12 بوده است\nاخیرا به دنبال اخبار بد و حوادث دچار تپش و گرگرفتگی می شوند."
+      },
+      "doctor_visit_record": {
+        "id": "48702e45-ca6c-40c9-adb8-e13ff859406d",
+        "is_visible": true,
+        "is_deleted": false,
+        "deleted_at": null,
+        "created_at": "2026-04-25T13:28:15.076Z",
+        "updated_at": "2026-04-25T13:28:15.076Z",
+        "hash_record": null,
+        "doctor_prescription": "غربالگری ",
+        "doctor_chief_complaint": "درخواست ازمایش چکاپ و تمدید نسخه",
+        "present_illness": "شرح حال کافی نداد",
+        "assessment": "چاقی شدید",
+        "diagnosis": "چاقی شدید",
+        "treatment_plan": "غربالگری ",
+        "prescription_tracking_code": "27828",
+        "referral_need": null,
+        "referral_specialty": null,
+        "follow_up_need": true,
+        "follow_up_date": "2026-05-20T20:30:00.000Z"
+      }
+    }
+  },
+  "message": "EHR details fetched successfully"
+}

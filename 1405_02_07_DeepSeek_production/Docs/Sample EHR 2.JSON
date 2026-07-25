@@ -1,0 +1,289 @@
+{
+	"status": 200,
+	"error": null,
+	"data": {
+		"generalRecord": {
+			"id": "ccb7f52a-99d4-438a-b25e-9bc5b8a69e33",
+			"is_visible": true,
+			"is_deleted": false,
+			"deleted_at": null,
+			"created_at": "2026-02-07T09:47:18.852Z",
+			"updated_at": "2026-02-07T09:47:18.852Z",
+			"hash_record": null,
+			"user": "e2b2f0be-3651-4b0b-9859-99e43a0e7df2",
+			"allergies": [
+				{
+					"id": "8f91c6a7-3820-4693-ae03-583ccf309002",
+					"is_visible": true,
+					"is_deleted": false,
+					"deleted_at": null,
+					"created_at": "2026-04-22T04:41:04.152Z",
+					"updated_at": "2026-04-22T04:41:04.152Z",
+					"hash_record": null,
+					"substance": "پنی سیلین",
+					"type": "medication",
+					"severity": "متوسط"
+				},
+				{
+					"id": "dada3ca4-2e6e-4459-bcf3-3da2fc34f9ed",
+					"is_visible": true,
+					"is_deleted": false,
+					"deleted_at": null,
+					"created_at": "2026-04-22T04:41:04.152Z",
+					"updated_at": "2026-04-22T04:41:04.152Z",
+					"hash_record": null,
+					"substance": "تخم مرغ یا غذاهای حاوی تخم مرغ",
+					"type": "food",
+					"severity": "خفیف"
+				}
+			],
+			"underlying_conditions": [
+				{
+					"id": "bc5753c1-c527-4a6a-92e1-de124f290cf1",
+					"is_visible": true,
+					"is_deleted": false,
+					"deleted_at": null,
+					"created_at": "2026-04-22T04:41:04.127Z",
+					"updated_at": "2026-04-22T04:41:04.127Z",
+					"hash_record": null,
+					"disease": {
+						"id": "77df7470-aaaa-4952-9e14-1aceffce1a6e",
+						"is_visible": true,
+						"is_deleted": false,
+						"deleted_at": null,
+						"created_at": "2026-02-14T10:46:30.307Z",
+						"updated_at": "2026-02-14T10:46:30.307Z",
+						"hash_record": null,
+						"fa_name": "نارسایی مزمن قلب",
+						"en_name": "Chronic Heart Failure",
+						"short_name": "CHF",
+						"code": "I50",
+						"disease_type": [
+							"underlying_condition"
+						]
+					},
+					"note": "",
+					"severity": "خفیف",
+					"onset_date": "2026-04-22T08:10:36.160Z",
+					"resolved_date": null,
+					"status": "active"
+				},
+				{
+					"id": "1fdb481e-1b4c-4874-847f-645c08df1ae7",
+					"is_visible": true,
+					"is_deleted": false,
+					"deleted_at": null,
+					"created_at": "2026-04-22T04:41:04.127Z",
+					"updated_at": "2026-04-22T04:41:04.127Z",
+					"hash_record": null,
+					"disease": {
+						"id": "1eb1d965-ea1c-42ed-ae92-a60c9242d707",
+						"is_visible": true,
+						"is_deleted": false,
+						"deleted_at": null,
+						"created_at": "2026-02-08T02:18:37.002Z",
+						"updated_at": "2026-02-08T02:18:37.002Z",
+						"hash_record": null,
+						"fa_name": "فشار خون بالا",
+						"en_name": "Essential Hypertension",
+						"short_name": "HTN",
+						"code": "I10",
+						"disease_type": [
+							"non_infectious",
+							"underlying_condition"
+						]
+					},
+					"note": "",
+					"severity": "خفیف",
+					"onset_date": "2026-04-22T08:10:36.160Z",
+					"resolved_date": null,
+					"status": "active"
+				}
+			],
+			"hospitalizations": [
+				{
+					"id": "beec6bf6-9427-4993-bc30-649276cb2e23",
+					"is_visible": true,
+					"is_deleted": false,
+					"deleted_at": null,
+					"created_at": "2026-04-22T04:41:04.203Z",
+					"updated_at": "2026-04-22T04:41:04.203Z",
+					"hash_record": null,
+					"duration": 2,
+					"admission_date": "2026-04-21T20:30:00.000Z",
+					"discharge_date": "2026-04-23T20:30:00.000Z",
+					"description": "تنگی نفس"
+				}
+			],
+			"surgical_histories": [
+				{
+					"id": "bc54f901-e799-4c0a-9f60-88f8d574cf3c",
+					"is_visible": true,
+					"is_deleted": false,
+					"deleted_at": null,
+					"created_at": "2026-04-22T04:41:04.221Z",
+					"updated_at": "2026-04-22T04:41:04.221Z",
+					"hash_record": null,
+					"type": "شکم",
+					"do_date": "2007-10-13T20:30:00.000Z"
+				}
+			],
+			"family_records": [
+				{
+					"id": "660faede-f66f-4417-811e-95a5d8aac8d3",
+					"is_visible": true,
+					"is_deleted": false,
+					"deleted_at": null,
+					"created_at": "2026-04-22T04:41:04.170Z",
+					"updated_at": "2026-04-22T04:41:04.170Z",
+					"hash_record": null,
+					"relation": "پدر",
+					"disease": {
+						"id": "f6b91bb0-5ae1-4a44-b84a-43bfb22f761f",
+						"is_visible": true,
+						"is_deleted": false,
+						"deleted_at": null,
+						"created_at": "2026-02-08T07:29:19.228Z",
+						"updated_at": "2026-02-08T07:29:19.228Z",
+						"hash_record": null,
+						"fa_name": "سابقه خانوادگی دیابت (قند خون بالا)",
+						"en_name": "Family history of diabetes mellitus",
+						"short_name": "",
+						"code": "Z83.3",
+						"disease_type": [
+							"family_history"
+						]
+					}
+				},
+				{
+					"id": "7bd3b3ab-3a95-4239-81d9-cff54946dd65",
+					"is_visible": true,
+					"is_deleted": false,
+					"deleted_at": null,
+					"created_at": "2026-04-22T04:41:04.170Z",
+					"updated_at": "2026-04-22T04:41:04.170Z",
+					"hash_record": null,
+					"relation": "خواهر-برادر",
+					"disease": {
+						"id": "e52ffdf5-a0cf-4328-bc72-5d704f446f1b",
+						"is_visible": true,
+						"is_deleted": false,
+						"deleted_at": null,
+						"created_at": "2026-02-08T07:14:07.134Z",
+						"updated_at": "2026-02-08T07:14:07.134Z",
+						"hash_record": null,
+						"fa_name": "سابقه خانوادگی بیماری ایسکمیک قلبی",
+						"en_name": "Family history of ischaemic heart disease and other diseases of the circulatory system",
+						"short_name": "",
+						"code": "Z82.4",
+						"disease_type": [
+							"family_history"
+						]
+					}
+				},
+				{
+					"id": "a3fad175-9c64-4dd5-9b30-36c79013e396",
+					"is_visible": true,
+					"is_deleted": false,
+					"deleted_at": null,
+					"created_at": "2026-04-22T04:41:04.170Z",
+					"updated_at": "2026-04-22T04:41:04.170Z",
+					"hash_record": null,
+					"relation": "پدر",
+					"disease": {
+						"id": "e52ffdf5-a0cf-4328-bc72-5d704f446f1b",
+						"is_visible": true,
+						"is_deleted": false,
+						"deleted_at": null,
+						"created_at": "2026-02-08T07:14:07.134Z",
+						"updated_at": "2026-02-08T07:14:07.134Z",
+						"hash_record": null,
+						"fa_name": "سابقه خانوادگی بیماری ایسکمیک قلبی",
+						"en_name": "Family history of ischaemic heart disease and other diseases of the circulatory system",
+						"short_name": "",
+						"code": "Z82.4",
+						"disease_type": [
+							"family_history"
+						]
+					}
+				}
+			],
+			"ehr_prescription": [
+				{
+					"id": "03d9e4e6-4afc-47c5-94b1-da605dce8034",
+					"is_visible": true,
+					"is_deleted": false,
+					"deleted_at": null,
+					"created_at": "2026-04-22T04:41:04.186Z",
+					"updated_at": "2026-04-22T04:41:04.186Z",
+					"hash_record": null,
+					"drug": "FUROSEMIDE 40MG TAB",
+					"usage": "روزانه یک عدد"
+				},
+				{
+					"id": "3985ba20-df91-449f-acbb-7e83b9428edf",
+					"is_visible": true,
+					"is_deleted": false,
+					"deleted_at": null,
+					"created_at": "2026-04-22T04:41:04.186Z",
+					"updated_at": "2026-04-22T04:41:04.186Z",
+					"hash_record": null,
+					"drug": "CARVEDILOL 6.25MG TAB",
+					"usage": "روزانه یک عدد"
+				}
+			]
+		},
+		"visitRecord": {
+			"id": "00bab591-bf33-4e02-9a09-48771963b51e",
+			"is_visible": true,
+			"is_deleted": false,
+			"deleted_at": null,
+			"created_at": "2026-04-21T06:05:09.753Z",
+			"updated_at": "2026-04-21T06:05:10.624Z",
+			"hash_record": null,
+			"user": "e2b2f0be-3651-4b0b-9859-99e43a0e7df2",
+			"slot_id": "9957f5b8-24f0-4329-adda-7a11c1b6559b",
+			"visit": "a469bb4b-8ff8-4e9e-afb4-d1f89589b37d",
+			"visit_status": "scheduled",
+			"patient_chief_complaint": [
+				"علائم سرماخوردگی و تنفسی",
+				"سردرد و بیماری‌های مغز و اعصاب"
+			],
+			"patient_notes": "لورم ایپسوم",
+			"lab_test_records": [
+				{
+					"id": "3248cf4f-394f-4c28-8ad3-ad0a4c970fe5",
+					"is_visible": true,
+					"is_deleted": false,
+					"deleted_at": null,
+					"created_at": "2026-04-21T06:04:52.131Z",
+					"updated_at": "2026-04-21T06:05:09.753Z",
+					"hash_record": null,
+					"user": "e2b2f0be-3651-4b0b-9859-99e43a0e7df2",
+					"files": [
+						"41167489-78fb-4b33-aa24-730e1c2828d7.png"
+					],
+					"do_date": "2026-04-21T00:00:00.000Z",
+					"description": "لورم ایپسوم"
+				}
+			],
+			"assistant_visit_record": {
+				"id": "bf804538-4365-4129-8349-3fb5713a1b9b",
+				"is_visible": true,
+				"is_deleted": false,
+				"deleted_at": null,
+				"created_at": "2026-04-22T04:41:07.645Z",
+				"updated_at": "2026-04-22T04:41:07.661Z",
+				"hash_record": null,
+				"assistant_chief_complaint": "تنگی نفس هنگام راه رفتن",
+				"assistant": "e2b2f0be-3651-4b0b-9859-99e43a0e7df2",
+				"height": "185",
+				"weight": "80",
+				"bmi": "23.37",
+				"assitant_notes": "آقای ۷۰ ساله که حدود یک هفته است تنگی نفس موقع راه رفتن دارند. تب ندارند. درصد اکسیژن ۹۱"
+			},
+			"doctor_visit_record": null
+		}
+	},
+	"message": "EHR details fetched successfully"
+}

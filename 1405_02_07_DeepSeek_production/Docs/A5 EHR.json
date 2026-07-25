@@ -1,0 +1,166 @@
+{
+  "status": 200,
+  "error": null,
+  "data": {
+    "generalRecord": {
+      "id": "ff5f22a2-5ef5-4f96-b19b-da51d2306aaa",
+      "is_visible": true,
+      "is_deleted": false,
+      "deleted_at": null,
+      "created_at": "2026-04-10T09:54:25.688Z",
+      "updated_at": "2026-04-10T09:54:25.688Z",
+      "hash_record": null,
+      "user": "a74c8587-f70c-400e-8937-cde77526f26e",
+      "allergies": [
+        {
+          "id": "f296c02e-736b-485f-afb5-6dc4c93f8c6b",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-10T10:43:29.008Z",
+          "updated_at": "2026-04-10T10:43:29.008Z",
+          "hash_record": null,
+          "substance": "پنی سیلین",
+          "type": "medication",
+          "severity": "شدید"
+        }
+      ],
+      "underlying_conditions": [],
+      "hospitalizations": [],
+      "surgical_histories": [
+        {
+          "id": "8c104eb0-1429-4777-882f-7eca69737cf7",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-10T10:43:29.051Z",
+          "updated_at": "2026-04-10T10:43:29.051Z",
+          "hash_record": null,
+          "type": "ناحیه سر و صورت",
+          "do_date": "2023-07-09T20:30:00.000Z"
+        }
+      ],
+      "family_records": [
+        {
+          "id": "de64ad4b-8697-4ef1-9386-3fb2686885c9",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-10T10:43:29.024Z",
+          "updated_at": "2026-04-10T10:43:29.024Z",
+          "hash_record": null,
+          "relation": "عمو-عمه",
+          "disease": {
+            "id": "ac0e818d-3570-47e2-9556-216c932560c6",
+            "is_visible": true,
+            "is_deleted": false,
+            "deleted_at": null,
+            "created_at": "2026-02-08T07:31:26.610Z",
+            "updated_at": "2026-02-08T07:31:26.610Z",
+            "hash_record": null,
+            "fa_name": "سابقه خانوادگی تیروئید و سایر غدد درون‌ریز",
+            "en_name": "Family history of other endocrine, nutritional and metabolic diseases",
+            "short_name": "",
+            "code": "Z83.4",
+            "disease_type": [
+              "family_history"
+            ]
+          }
+        },
+        {
+          "id": "5f914718-beda-4d3a-8e2c-67c7981cdde7",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-10T10:43:29.024Z",
+          "updated_at": "2026-04-10T10:43:29.024Z",
+          "hash_record": null,
+          "relation": "پدربزرگ-مادربزرگ",
+          "disease": {
+            "id": "6b8b61a9-bcce-4118-8af3-c743f9d1197f",
+            "is_visible": true,
+            "is_deleted": false,
+            "deleted_at": null,
+            "created_at": "2026-02-15T09:54:50.518Z",
+            "updated_at": "2026-02-15T09:54:50.518Z",
+            "hash_record": null,
+            "fa_name": "سابقه خانوادگی فشار خون بالا",
+            "en_name": "Family History of Hypertension",
+            "short_name": "HTN",
+            "code": "Z",
+            "disease_type": [
+              "family_history"
+            ]
+          }
+        }
+      ],
+      "ehr_prescription": [
+        {
+          "id": "4e86cc5e-1929-4295-85f6-34aef8da7071",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-10T10:43:29.038Z",
+          "updated_at": "2026-04-10T10:43:29.038Z",
+          "hash_record": null,
+          "drug": "BRONSON VITAMIN C TABLET ORAL",
+          "usage": "روزی 1 بار"
+        },
+        {
+          "id": "0a47c16b-3bf5-4858-82ce-9180f6cb6a4c",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-10T10:43:29.038Z",
+          "updated_at": "2026-04-10T10:43:29.038Z",
+          "hash_record": null,
+          "drug": "BRONSON MULTI VITAMIN EFFERVESCENT TABLET ORAL",
+          "usage": "هر دو روز یک بار"
+        },
+        {
+          "id": "6d5fd6bd-32ab-49b3-88d3-db59e459c272",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-10T10:43:29.038Z",
+          "updated_at": "2026-04-10T10:43:29.038Z",
+          "hash_record": null,
+          "drug": "KAREN VITAMIN D SOFT CHEW ORAL 1000 IU",
+          "usage": "روزی 1 عدد"
+        },
+        {
+          "id": "6211e422-49a9-4372-9b81-ea52a4fe25dd",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-10T10:43:29.038Z",
+          "updated_at": "2026-04-10T10:43:29.038Z",
+          "hash_record": null,
+          "drug": "LEVOTHYROXINE SODIUM 100 ug TABLET ORAL",
+          "usage": "هر روز نصف"
+        }
+      ]
+    },
+    "visitRecord": {
+      "id": "b58f07f3-17ac-4dd5-94f5-e7fae04b5045",
+      "is_visible": true,
+      "is_deleted": false,
+      "deleted_at": null,
+      "created_at": "2026-04-21T19:45:25.120Z",
+      "updated_at": "2026-04-21T19:45:26.957Z",
+      "hash_record": null,
+      "user": "a74c8587-f70c-400e-8937-cde77526f26e",
+      "slot_id": "1a78fea9-1c59-4e2a-ade3-d55c26be9659",
+      "visit": "3bf0442e-1eff-4627-af13-d45b9c544b19",
+      "visit_status": "scheduled",
+      "patient_chief_complaint": [
+        "سؤالات سلامت"
+      ],
+      "patient_notes": "سلام وقت بخیر میخواستم اینا رو برام بنویسن. Cbc diff _ ferritin_ iron_tsh_t4_t3_free t4_free t3_cr_fbs_hba1c_chol_tg_hdl_ldl_alt_25oh D_ca_ UFC و اینکه چند وقتیه انگشت های دستام و استخون های پاهام درد میکنه گاهی ، برای این مشکل هم آزمایش مربوطه را برام بنویسین سپاس",
+      "lab_test_records": [],
+      "assistant_visit_record": null,
+      "doctor_visit_record": null
+    }
+  },
+  "message": "EHR details fetched successfully"
+}

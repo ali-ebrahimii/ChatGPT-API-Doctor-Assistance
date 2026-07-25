@@ -1,0 +1,4 @@
+OUR_API_KEY="sk-668b1ce4ea1f473bb89a9122e22aed99" 
+MODEL="deepseek-chat"
+MAX_RETRIES="3"
+DeepSeek_TIMEOUT="60"

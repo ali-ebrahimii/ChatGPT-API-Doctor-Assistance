@@ -1,0 +1,125 @@
+{
+  "status": 200,
+  "error": null,
+  "data": {
+    "generalRecord": {
+      "id": "7c5977c1-81d3-4f57-85ad-88e14ede84ab",
+      "is_visible": true,
+      "is_deleted": false,
+      "deleted_at": null,
+      "created_at": "2026-04-10T09:39:43.912Z",
+      "updated_at": "2026-04-10T09:39:43.912Z",
+      "hash_record": null,
+      "user": "7a8c6c88-ff5c-4321-96af-0faf87755f64",
+      "allergies": [],
+      "underlying_conditions": [],
+      "hospitalizations": [
+        {
+          "id": "23397b84-57c1-4ed0-ba7d-02f473e12686",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-10T09:49:16.670Z",
+          "updated_at": "2026-04-10T09:49:16.670Z",
+          "hash_record": null,
+          "duration": 3,
+          "admission_date": "2025-08-04T20:30:00.000Z",
+          "discharge_date": "2025-08-07T20:30:00.000Z",
+          "description": "شسکتگی مهره کمری/ درمان با کمربند و فیزیوتراپی"
+        }
+      ],
+      "surgical_histories": [],
+      "family_records": [
+        {
+          "id": "ecda95d2-307f-4740-a473-be87888e2c52",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-10T09:49:16.656Z",
+          "updated_at": "2026-04-10T09:49:16.656Z",
+          "hash_record": null,
+          "relation": "پدر",
+          "disease": {
+            "id": "6b8b61a9-bcce-4118-8af3-c743f9d1197f",
+            "is_visible": true,
+            "is_deleted": false,
+            "deleted_at": null,
+            "created_at": "2026-02-15T09:54:50.518Z",
+            "updated_at": "2026-02-15T09:54:50.518Z",
+            "hash_record": null,
+            "fa_name": "سابقه خانوادگی فشار خون بالا",
+            "en_name": "Family History of Hypertension",
+            "short_name": "HTN",
+            "code": "Z",
+            "disease_type": [
+              "family_history"
+            ]
+          }
+        }
+      ],
+      "ehr_prescription": []
+    },
+    "visitRecord": {
+      "id": "c33d98b5-9dfd-4750-bb49-7fb84dbc632b",
+      "is_visible": true,
+      "is_deleted": false,
+      "deleted_at": null,
+      "created_at": "2026-04-10T09:13:33.879Z",
+      "updated_at": "2026-04-10T09:13:35.467Z",
+      "hash_record": null,
+      "user": "7a8c6c88-ff5c-4321-96af-0faf87755f64",
+      "slot_id": "d1bcf6a5-aaac-43fb-8710-1e85ecb4487b",
+      "visit": "701b2789-5349-4f14-9c09-6eb37327531b",
+      "visit_status": "scheduled",
+      "patient_chief_complaint": [
+        "سؤالات سلامت"
+      ],
+      "patient_notes": null,
+      "lab_test_records": [
+        {
+          "id": "4dc0539a-e33b-46c0-811f-48da5fa625b4",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-10T09:12:59.198Z",
+          "updated_at": "2026-04-10T09:13:33.879Z",
+          "hash_record": null,
+          "type": {
+            "id": "ee7f3833-7b26-4692-82d3-43ec5e66a949",
+            "is_visible": true,
+            "is_deleted": false,
+            "deleted_at": null,
+            "created_at": "2026-02-07T10:17:59.403Z",
+            "updated_at": "2026-02-07T10:17:59.403Z",
+            "hash_record": null,
+            "name": "آزمایش",
+            "icon": "https://api-minio.saman.health/grin/c6ade611-e5d3-4add-a09a-13023caaf8f3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=samansalamat%2F20260524%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260524T044102Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=8efaec59958a83fee3ff412e5b6bc6e461a3dae381a91f006b0b6fbc8faca98b"
+          },
+          "user": "7a8c6c88-ff5c-4321-96af-0faf87755f64",
+          "files": [
+            "8f840cd0-f297-47a7-a416-41236e49b080.pdf"
+          ],
+          "do_date": "2026-03-15T00:00:00.000Z",
+          "description": ""
+        }
+      ],
+      "assistant_visit_record": {
+        "id": "68c256f2-d81f-4b7f-92a6-012da37014c7",
+        "is_visible": true,
+        "is_deleted": false,
+        "deleted_at": null,
+        "created_at": "2026-04-10T09:49:16.988Z",
+        "updated_at": "2026-04-10T09:49:17.000Z",
+        "hash_record": null,
+        "assistant_chief_complaint": "مشورت درباره جواب ازمایشات چکاپ روتین که بیان داشتند چربی خون یک مقدار بالاست",
+        "assistant": "ecff61d8-4bba-4357-ae02-9abec23f7b1c",
+        "height": "169",
+        "weight": "77",
+        "bmi": "26.96",
+        "assitant_notes": "سابقه شکستگی مهره کمری به دنبال زمین خوردگی مرداد 404/ درمان با کمربند و فیزیوتراپی\nیایسگی از 4-5 سال پیش\nعدم مصرف سیگار و قلیان و الکل\nعلامت مشکلات ادراری و کم خونی منفی \n"
+      },
+      "doctor_visit_record": null
+    }
+  },
+  "message": "EHR details fetched successfully"
+}

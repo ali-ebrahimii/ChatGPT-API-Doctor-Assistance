@@ -1,0 +1,34 @@
+{
+  "status": 200,
+  "error": null,
+  "data": {
+    "id": "bcbb238c-029c-432b-ace8-f10f02607ab3",
+    "phone": "989125103901",
+    "national_id": "6629911881",
+    "is_verified": true,
+    "general_profile": {
+      "id": "5bfb81a1-e4e1-45f7-95cd-b4bf87ef1b56",
+      "first_name": "اکرم",
+      "last_name": "زیودار",
+      "biography": null,
+      "profile_picture": null
+    },
+    "demographic_profile": {
+      "weight": null,
+      "height": null,
+      "blood_type": null,
+      "marital_status": null,
+      "birth_date": "1985-07-06T00:00:00.000Z",
+      "gender": "FEMALE",
+      "death_status": "ALIVE",
+      "basic_insurance_type": null,
+      "insurance_relation": null,
+      "insurance_expirating_date": null,
+      "insurance_start_date": null,
+      "insurance_company_name": null
+    },
+    "medical_profile": null,
+    "hasPassword": false
+  },
+  "message": null
+}

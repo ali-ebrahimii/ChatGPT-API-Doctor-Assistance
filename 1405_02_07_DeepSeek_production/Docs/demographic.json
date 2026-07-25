@@ -1,0 +1,68 @@
+{
+    "status": 200,
+    "error": null,
+    "data": {
+        "id": "e2b2f0be-3651-4b0b-9859-99e43a0e7df2",
+        "phone": "989390589577",
+        "national_id": "0311672728",
+        "is_verified": true,
+        "general_profile": {
+            "id": "025ff9b0-b370-47df-b39c-d76aeec68387",
+            "first_name": "پویا",
+            "last_name": "حسینی منفرد",
+            "biography": "پزشک عمومی فارغ‌ التحصیل از دانشگاه علوم پزشکی شهید بهشتی\n",
+            "profile_picture": "https://s8.uupload.ir/files/pooya_hosseini_2wjv.png"
+        },
+        "demographic_profile": {
+            "weight": null,
+            "height": null,
+            "blood_type": null,
+            "marital_status": null,
+            "birth_date": "1997-11-06T00:00:00.000Z",
+            "gender": "MALE",
+            "death_status": "ALIVE",
+            "basic_insurance_type": null,
+            "insurance_relation": null,
+            "insurance_expirating_date": null,
+            "insurance_start_date": null
+        },
+        "medical_profile": {
+            "id": "3455c8b6-b82f-48ee-bd3a-4e366e70ed03",
+            "medical_id": "214440",
+            "is_verified": true,
+            "years_of_experience": 3,
+            "speciality": {
+                "fa_name": "پزشک عمومی"
+            },
+            "tags": [
+                {
+                    "id": "cfe5b226-1360-4963-b473-8501fc148acf",
+                    "fa_name": "دیابت",
+                    "en_name": "Diabetes"
+                },
+                {
+                    "id": "50e6d6e6-6f39-421e-9d3d-1e13e88885aa",
+                    "fa_name": "فشار خون بالا",
+                    "en_name": "hypertension"
+                },
+                {
+                    "id": "5a254757-bafe-4d3a-92c1-ba5f3a6bc5b3",
+                    "fa_name": "چربی خون بالا",
+                    "en_name": "Hyperlipidemia"
+                },
+                {
+                    "id": "6b4041a3-1c2a-40b3-8e90-b3eb39f5c095",
+                    "fa_name": "کبد چرب",
+                    "en_name": "fatty liver"
+                },
+                {
+                    "id": "eb78f890-1ddb-4275-8b21-53e356a749e4",
+                    "fa_name": "نقرس",
+                    "en_name": "gout"
+                }
+            ]
+        },
+        "hasPassword": true
+    },
+    "message": null
+}

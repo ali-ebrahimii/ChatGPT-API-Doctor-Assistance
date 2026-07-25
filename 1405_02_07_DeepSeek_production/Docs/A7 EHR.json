@@ -1,0 +1,227 @@
+{
+  "status": 200,
+  "error": null,
+  "data": {
+    "generalRecord": {
+      "id": "bdf4a7fd-41f0-495d-9ee7-853b19821e5f",
+      "is_visible": true,
+      "is_deleted": false,
+      "deleted_at": null,
+      "created_at": "2026-02-17T07:08:58.245Z",
+      "updated_at": "2026-02-17T07:08:58.245Z",
+      "hash_record": null,
+      "user": "68510cf1-0017-42eb-8706-c66390567c31",
+      "allergies": [],
+      "underlying_conditions": [
+        {
+          "id": "568dac3b-3a0a-4709-bee7-b7f2915f4603",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-05-14T11:37:25.879Z",
+          "updated_at": "2026-05-14T11:37:25.879Z",
+          "hash_record": null,
+          "disease": {
+            "id": "1bab7f02-c529-4394-85ed-919c7ec12c49",
+            "is_visible": true,
+            "is_deleted": false,
+            "deleted_at": null,
+            "created_at": "2026-02-08T07:54:25.046Z",
+            "updated_at": "2026-02-08T07:54:25.046Z",
+            "hash_record": null,
+            "fa_name": " چربی خون بالا",
+            "en_name": "Hyperlipidemia",
+            "short_name": "HLD",
+            "code": "E78.5",
+            "disease_type": [
+              "underlying_condition",
+              "non_infectious"
+            ]
+          },
+          "note": "",
+          "severity": "خفیف",
+          "onset_date": "2026-05-14T15:07:07.358Z",
+          "resolved_date": null,
+          "status": "active"
+        },
+        {
+          "id": "2274b8c9-ad2d-4598-a267-d29885e33a05",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-05-14T11:37:25.879Z",
+          "updated_at": "2026-05-14T11:37:25.879Z",
+          "hash_record": null,
+          "disease": {
+            "id": "1c1a2dc1-5544-4195-9555-b897249e2841",
+            "is_visible": true,
+            "is_deleted": false,
+            "deleted_at": null,
+            "created_at": "2026-02-08T02:17:39.034Z",
+            "updated_at": "2026-02-08T02:17:39.034Z",
+            "hash_record": null,
+            "fa_name": "دیابت نوع دو",
+            "en_name": "Type 2 Diabetes",
+            "short_name": "T2DM",
+            "code": "E11",
+            "disease_type": [
+              "non_infectious",
+              "underlying_condition"
+            ]
+          },
+          "note": "",
+          "severity": "خفیف",
+          "onset_date": "2026-05-14T15:07:07.358Z",
+          "resolved_date": null,
+          "status": "active"
+        }
+      ],
+      "hospitalizations": [],
+      "surgical_histories": [
+        {
+          "id": "781520f0-bb9f-46b3-9eac-b141219b3f0d",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-05-14T11:37:25.934Z",
+          "updated_at": "2026-05-14T11:37:25.934Z",
+          "hash_record": null,
+          "type": "ناحیه سر و صورت",
+          "do_date": "2025-10-12T20:30:00.000Z"
+        }
+      ],
+      "family_records": [
+        {
+          "id": "bbe622bc-cd7e-4e03-aa06-3d3037126bdd",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-05-14T11:37:25.905Z",
+          "updated_at": "2026-05-14T11:37:25.905Z",
+          "hash_record": null,
+          "relation": "پدر",
+          "disease": {
+            "id": "e52ffdf5-a0cf-4328-bc72-5d704f446f1b",
+            "is_visible": true,
+            "is_deleted": false,
+            "deleted_at": null,
+            "created_at": "2026-02-08T07:14:07.134Z",
+            "updated_at": "2026-02-08T07:14:07.134Z",
+            "hash_record": null,
+            "fa_name": "سابقه خانوادگی بیماری ایسکمیک قلبی",
+            "en_name": "Family history of ischaemic heart disease and other diseases of the circulatory system",
+            "short_name": "",
+            "code": "Z82.4",
+            "disease_type": [
+              "family_history"
+            ]
+          }
+        },
+        {
+          "id": "6302bee0-64dd-4c5c-8ac0-42ac11ed6a8c",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-05-14T11:37:25.905Z",
+          "updated_at": "2026-05-14T11:37:25.905Z",
+          "hash_record": null,
+          "relation": "مادر",
+          "disease": {
+            "id": "6b8b61a9-bcce-4118-8af3-c743f9d1197f",
+            "is_visible": true,
+            "is_deleted": false,
+            "deleted_at": null,
+            "created_at": "2026-02-15T09:54:50.518Z",
+            "updated_at": "2026-02-15T09:54:50.518Z",
+            "hash_record": null,
+            "fa_name": "سابقه خانوادگی فشار خون بالا",
+            "en_name": "Family History of Hypertension",
+            "short_name": "HTN",
+            "code": "Z",
+            "disease_type": [
+              "family_history"
+            ]
+          }
+        }
+      ],
+      "ehr_prescription": [
+        {
+          "id": "65d72bf5-0545-4f09-963a-6aaf3bbbbd03",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-05-14T11:37:25.919Z",
+          "updated_at": "2026-05-14T11:37:25.919Z",
+          "hash_record": null,
+          "drug": "ZIPMET TABLET ORAL 50 mg/1000 mg",
+          "usage": "روزی دوبار صبح و شب"
+        },
+        {
+          "id": "9a38b35d-15e3-4602-b4e2-6f2332461a0b",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-05-14T11:37:25.919Z",
+          "updated_at": "2026-05-14T11:37:25.919Z",
+          "hash_record": null,
+          "drug": "ROPIXON TABLET ORAL 20 mg",
+          "usage": "یک عدد بعد از  شام "
+        }
+      ]
+    },
+    "visitRecord": {
+      "id": "6831d1f1-001f-4bdf-acf1-7099d1b94782",
+      "is_visible": true,
+      "is_deleted": false,
+      "deleted_at": null,
+      "created_at": "2026-05-14T10:55:58.653Z",
+      "updated_at": "2026-05-14T11:59:40.813Z",
+      "hash_record": null,
+      "user": "68510cf1-0017-42eb-8706-c66390567c31",
+      "slot_id": "54c213c6-fad6-43c6-9d5a-0ed7bc57d8ea",
+      "visit": "50f7606d-ca6e-44ba-941d-8eb4178a86bd",
+      "visit_status": "completed",
+      "patient_chief_complaint": [
+        "سؤالات سلامت"
+      ],
+      "patient_notes": null,
+      "lab_test_records": [],
+      "assistant_visit_record": {
+        "id": "bb215d6d-b674-4d21-99bb-de5b0019d0d8",
+        "is_visible": true,
+        "is_deleted": false,
+        "deleted_at": null,
+        "created_at": "2026-05-14T11:37:26.194Z",
+        "updated_at": "2026-05-14T11:37:26.208Z",
+        "hash_record": null,
+        "assistant_chief_complaint": "درخواست ثبت ازمایشات",
+        "assistant": "ecff61d8-4bba-4357-ae02-9abec23f7b1c",
+        "height": "167",
+        "weight": "78",
+        "bmi": "27.97",
+        "assitant_notes": ""
+      },
+      "doctor_visit_record": {
+        "id": "dbf46434-23ae-45c3-b091-d1b0d4d34378",
+        "is_visible": true,
+        "is_deleted": false,
+        "deleted_at": null,
+        "created_at": "2026-05-14T11:59:40.798Z",
+        "updated_at": "2026-05-14T11:59:40.798Z",
+        "hash_record": null,
+        "doctor_prescription": "ازمایش",
+        "doctor_chief_complaint": "ثبت ازمایش",
+        "present_illness": "ثبت ازمایش",
+        "assessment": "خوب",
+        "diagnosis": "دیابت ",
+        "treatment_plan": "ازمایش",
+        "prescription_tracking_code": "10007",
+        "referral_need": true,
+        "referral_specialty": "751b5159-c6e5-4890-b1f4-c5bb951ba18f",
+        "follow_up_need": true,
+        "follow_up_date": "2026-05-20T20:30:00.000Z"
+      }
+    }
+  },
+  "message": "EHR details fetched successfully"
+}

@@ -1,0 +1,187 @@
+{
+    "status": 200,
+    "error": null,
+    "data": {
+        "generalRecord": {
+            "id": "ccb7f52a-99d4-438a-b25e-9bc5b8a69e33",
+            "is_visible": true,
+            "is_deleted": false,
+            "deleted_at": null,
+            "created_at": "2026-02-07T09:47:18.852Z",
+            "updated_at": "2026-02-07T09:47:18.852Z",
+            "hash_record": null,
+            "user": "e2b2f0be-3651-4b0b-9859-99e43a0e7df2",
+            "allergies": [
+                {
+                    "id": "5d40a2c2-2de2-47b5-ae62-04a7df951cab",
+                    "is_visible": true,
+                    "is_deleted": false,
+                    "deleted_at": null,
+                    "created_at": "2026-04-20T14:42:21.495Z",
+                    "updated_at": "2026-04-20T14:42:21.495Z",
+                    "hash_record": null,
+                    "substance": "گندم (از جمله نان‌های سنتی مثل لواش و سنگک)",
+                    "type": "food",
+                    "severity": "خفیف"
+                }
+            ],
+            "underlying_conditions": [
+                {
+                    "id": "6c6d1a17-d241-4acb-94e5-516275e8271c",
+                    "is_visible": true,
+                    "is_deleted": false,
+                    "deleted_at": null,
+                    "created_at": "2026-04-04T04:27:30.264Z",
+                    "updated_at": "2026-04-04T04:27:30.264Z",
+                    "hash_record": null,
+                    "disease": {
+                        "id": "7bca2369-61d2-4b93-be11-7baf5ef6a7fb",
+                        "is_visible": true,
+                        "is_deleted": false,
+                        "deleted_at": null,
+                        "created_at": "2026-02-08T01:34:01.613Z",
+                        "updated_at": "2026-02-08T01:34:01.613Z",
+                        "hash_record": null,
+                        "fa_name": "آسم",
+                        "en_name": "Asthma",
+                        "short_name": "",
+                        "code": "J45",
+                        "disease_type": [
+                            "non_infectious",
+                            "underlying_condition"
+                        ]
+                    },
+                    "note": "",
+                    "severity": "خفیف",
+                    "onset_date": "2026-04-04T07:57:46.555Z",
+                    "resolved_date": null,
+                    "status": "active"
+                }
+            ],
+            "hospitalizations": [
+                {
+                    "id": "95120572-4f9a-40ef-a63a-4a2260c96a96",
+                    "is_visible": true,
+                    "is_deleted": false,
+                    "deleted_at": null,
+                    "created_at": "2026-04-20T14:42:21.523Z",
+                    "updated_at": "2026-04-20T14:42:21.523Z",
+                    "hash_record": null,
+                    "duration": 2,
+                    "admission_date": "2016-11-21T20:30:00.000Z",
+                    "discharge_date": "2016-11-23T20:30:00.000Z",
+                    "description": "جراحی آپاندیسیت"
+                }
+            ],
+            "surgical_histories": [
+                {
+                    "id": "6d14fe8a-665b-40c7-9e07-e7145122fec2",
+                    "is_visible": true,
+                    "is_deleted": false,
+                    "deleted_at": null,
+                    "created_at": "2026-04-20T14:42:21.531Z",
+                    "updated_at": "2026-04-20T14:42:21.531Z",
+                    "hash_record": null,
+                    "type": "شکم",
+                    "do_date": "2016-11-21T20:30:00.000Z"
+                }
+            ],
+            "family_records": [
+                {
+                    "id": "cdee1fc2-4ae3-4933-a47f-4b922c25a399",
+                    "is_visible": true,
+                    "is_deleted": false,
+                    "deleted_at": null,
+                    "created_at": "2026-04-20T14:42:21.507Z",
+                    "updated_at": "2026-04-20T14:42:21.507Z",
+                    "hash_record": null,
+                    "relation": "پدر",
+                    "disease": {
+                        "id": "f6b91bb0-5ae1-4a44-b84a-43bfb22f761f",
+                        "is_visible": true,
+                        "is_deleted": false,
+                        "deleted_at": null,
+                        "created_at": "2026-02-08T07:29:19.228Z",
+                        "updated_at": "2026-02-08T07:29:19.228Z",
+                        "hash_record": null,
+                        "fa_name": "سابقه خانوادگی دیابت (قند خون بالا)",
+                        "en_name": "Family history of diabetes mellitus",
+                        "short_name": "",
+                        "code": "Z83.3",
+                        "disease_type": [
+                            "family_history"
+                        ]
+                    }
+                }
+            ],
+            "ehr_prescription": [
+                {
+                    "id": "21501043-77f1-42a6-860e-02aa4e7e6389",
+                    "is_visible": true,
+                    "is_deleted": false,
+                    "deleted_at": null,
+                    "created_at": "2026-04-20T14:42:21.518Z",
+                    "updated_at": "2026-04-20T14:42:21.518Z",
+                    "hash_record": null,
+                    "drug": "ACETAMINOPHEN / CAFFEINE / CHLORPHENIRAMINE / VITAMIN C CAPSULE ORAL 200 mg/25 mg/2.5 mg/150 mg  ",
+                    "usage": "روزانه یک عدد"
+                }
+            ]
+        },
+        "visitRecord": {
+            "id": "ecea508a-1138-4832-b52d-f052592717bf",
+            "is_visible": true,
+            "is_deleted": false,
+            "deleted_at": null,
+            "created_at": "2026-04-05T05:43:15.823Z",
+            "updated_at": "2026-04-05T05:59:06.674Z",
+            "hash_record": null,
+            "user": "e2b2f0be-3651-4b0b-9859-99e43a0e7df2",
+            "slot_id": "ea7450da-4eff-463f-8e6a-7f24e58c4f2c",
+            "visit": "0373a69e-3b8c-4045-b25e-677b02ce8b6d",
+            "visit_status": "completed",
+            "patient_chief_complaint": [
+                "سؤالات سلامت",
+                "علائم سرماخوردگی و تنفسی"
+            ],
+            "patient_notes": null,
+            "lab_test_records": [],
+            "assistant_visit_record": {
+                "id": "9df9b83e-8324-4a43-91cf-bd23daf8f131",
+                "is_visible": true,
+                "is_deleted": false,
+                "deleted_at": null,
+                "created_at": "2026-04-05T05:51:33.984Z",
+                "updated_at": "2026-04-05T05:51:33.996Z",
+                "hash_record": null,
+                "assistant_chief_complaint": "تست ویزیت برای بررسی",
+                "assistant": "e2b2f0be-3651-4b0b-9859-99e43a0e7df2",
+                "height": "185",
+                "weight": "118",
+                "bmi": "34.48",
+                "assitant_notes": "این نوبت برای آپدیت پرونده و تست پنل دستیار گرفته شده"
+            },
+            "doctor_visit_record": {
+                "id": "b440a1f0-da7a-4626-9233-9bc24018af14",
+                "is_visible": true,
+                "is_deleted": false,
+                "deleted_at": null,
+                "created_at": "2026-04-05T05:59:06.659Z",
+                "updated_at": "2026-04-05T05:59:06.659Z",
+                "hash_record": null,
+                "doctor_prescription": "ندارد",
+                "doctor_chief_complaint": "تست1",
+                "present_illness": "تست1",
+                "assessment": "تست1",
+                "diagnosis": "ندارد",
+                "treatment_plan": "ندارد",
+                "prescription_tracking_code": null,
+                "referral_need": null,
+                "referral_specialty": null,
+                "follow_up_need": null,
+                "follow_up_date": null
+            }
+        }
+    },
+    "message": "EHR details fetched successfully"
+}

@@ -1,0 +1,226 @@
+{
+  "status": 200,
+  "error": null,
+  "data": {
+    "generalRecord": {
+      "id": "ff5f22a2-5ef5-4f96-b19b-da51d2306aaa",
+      "is_visible": true,
+      "is_deleted": false,
+      "deleted_at": null,
+      "created_at": "2026-04-10T09:54:25.688Z",
+      "updated_at": "2026-04-10T09:54:25.688Z",
+      "hash_record": null,
+      "user": "a74c8587-f70c-400e-8937-cde77526f26e",
+      "allergies": [
+        {
+          "id": "f296c02e-736b-485f-afb5-6dc4c93f8c6b",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-10T10:43:29.008Z",
+          "updated_at": "2026-04-10T10:43:29.008Z",
+          "hash_record": null,
+          "substance": "پنی سیلین",
+          "type": "medication",
+          "severity": "شدید"
+        }
+      ],
+      "underlying_conditions": [],
+      "hospitalizations": [],
+      "surgical_histories": [
+        {
+          "id": "8c104eb0-1429-4777-882f-7eca69737cf7",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-10T10:43:29.051Z",
+          "updated_at": "2026-04-10T10:43:29.051Z",
+          "hash_record": null,
+          "type": "ناحیه سر و صورت",
+          "do_date": "2023-07-09T20:30:00.000Z"
+        }
+      ],
+      "family_records": [
+        {
+          "id": "de64ad4b-8697-4ef1-9386-3fb2686885c9",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-10T10:43:29.024Z",
+          "updated_at": "2026-04-10T10:43:29.024Z",
+          "hash_record": null,
+          "relation": "عمو-عمه",
+          "disease": {
+            "id": "ac0e818d-3570-47e2-9556-216c932560c6",
+            "is_visible": true,
+            "is_deleted": false,
+            "deleted_at": null,
+            "created_at": "2026-02-08T07:31:26.610Z",
+            "updated_at": "2026-02-08T07:31:26.610Z",
+            "hash_record": null,
+            "fa_name": "سابقه خانوادگی تیروئید و سایر غدد درون‌ریز",
+            "en_name": "Family history of other endocrine, nutritional and metabolic diseases",
+            "short_name": "",
+            "code": "Z83.4",
+            "disease_type": [
+              "family_history"
+            ]
+          }
+        },
+        {
+          "id": "5f914718-beda-4d3a-8e2c-67c7981cdde7",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-10T10:43:29.024Z",
+          "updated_at": "2026-04-10T10:43:29.024Z",
+          "hash_record": null,
+          "relation": "پدربزرگ-مادربزرگ",
+          "disease": {
+            "id": "6b8b61a9-bcce-4118-8af3-c743f9d1197f",
+            "is_visible": true,
+            "is_deleted": false,
+            "deleted_at": null,
+            "created_at": "2026-02-15T09:54:50.518Z",
+            "updated_at": "2026-02-15T09:54:50.518Z",
+            "hash_record": null,
+            "fa_name": "سابقه خانوادگی فشار خون بالا",
+            "en_name": "Family History of Hypertension",
+            "short_name": "HTN",
+            "code": "Z",
+            "disease_type": [
+              "family_history"
+            ]
+          }
+        }
+      ],
+      "ehr_prescription": [
+        {
+          "id": "4e86cc5e-1929-4295-85f6-34aef8da7071",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-10T10:43:29.038Z",
+          "updated_at": "2026-04-10T10:43:29.038Z",
+          "hash_record": null,
+          "drug": "BRONSON VITAMIN C TABLET ORAL",
+          "usage": "روزی 1 بار"
+        },
+        {
+          "id": "0a47c16b-3bf5-4858-82ce-9180f6cb6a4c",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-10T10:43:29.038Z",
+          "updated_at": "2026-04-10T10:43:29.038Z",
+          "hash_record": null,
+          "drug": "BRONSON MULTI VITAMIN EFFERVESCENT TABLET ORAL",
+          "usage": "هر دو روز یک بار"
+        },
+        {
+          "id": "6d5fd6bd-32ab-49b3-88d3-db59e459c272",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-10T10:43:29.038Z",
+          "updated_at": "2026-04-10T10:43:29.038Z",
+          "hash_record": null,
+          "drug": "KAREN VITAMIN D SOFT CHEW ORAL 1000 IU",
+          "usage": "روزی 1 عدد"
+        },
+        {
+          "id": "6211e422-49a9-4372-9b81-ea52a4fe25dd",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-10T10:43:29.038Z",
+          "updated_at": "2026-04-10T10:43:29.038Z",
+          "hash_record": null,
+          "drug": "LEVOTHYROXINE SODIUM 100 ug TABLET ORAL",
+          "usage": "هر روز نصف"
+        }
+      ]
+    },
+    "visitRecord": {
+      "id": "960b0a59-cb48-40f2-afb8-921f79cccd56",
+      "is_visible": true,
+      "is_deleted": false,
+      "deleted_at": null,
+      "created_at": "2026-04-10T09:38:00.374Z",
+      "updated_at": "2026-04-10T13:26:07.362Z",
+      "hash_record": null,
+      "user": "a74c8587-f70c-400e-8937-cde77526f26e",
+      "slot_id": "447f0a0f-593f-4d0b-8234-4e229a08b707",
+      "visit": "517fe2a1-7f66-49ea-9b05-6d3bb35e5f25",
+      "visit_status": "completed",
+      "patient_chief_complaint": [
+        "سایر موارد"
+      ],
+      "patient_notes": null,
+      "lab_test_records": [
+        {
+          "id": "ec3ca3fa-6ad8-40bc-9cb4-61fd96d44744",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-10T09:37:20.339Z",
+          "updated_at": "2026-04-10T09:38:00.374Z",
+          "hash_record": null,
+          "type": {
+            "id": "ee7f3833-7b26-4692-82d3-43ec5e66a949",
+            "is_visible": true,
+            "is_deleted": false,
+            "deleted_at": null,
+            "created_at": "2026-02-07T10:17:59.403Z",
+            "updated_at": "2026-02-07T10:17:59.403Z",
+            "hash_record": null,
+            "name": "آزمایش",
+            "icon": "https://api-minio.saman.health/grin/c6ade611-e5d3-4add-a09a-13023caaf8f3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=samansalamat%2F20260524%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260524T044102Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=8efaec59958a83fee3ff412e5b6bc6e461a3dae381a91f006b0b6fbc8faca98b"
+          },
+          "user": "a74c8587-f70c-400e-8937-cde77526f26e",
+          "files": [
+            "bb886119-d5a1-40c3-8087-6ce0a7a32654.pdf"
+          ],
+          "do_date": "2026-04-10T00:00:00.000Z",
+          "description": ""
+        }
+      ],
+      "assistant_visit_record": {
+        "id": "ac908d98-a77c-4cf3-bfa2-846c992e4835",
+        "is_visible": true,
+        "is_deleted": false,
+        "deleted_at": null,
+        "created_at": "2026-04-10T10:43:29.264Z",
+        "updated_at": "2026-04-10T10:43:29.273Z",
+        "hash_record": null,
+        "assistant_chief_complaint": "ضعف و بی حالی شدید بعد یک ساعت حضور بیرون منزل\nتوضیحات تکمیلی: به دنبال جواب آزمایشات دی ماه 404 تشخیص کم خونی فقر آهن و کم کاری تیروییدی هاشیموتو توسط پزشکان متخصص گذاشته شده بعد از مصرف دارو علایم بیحالی و افت فشار خون بهبود یافته اما همچنان بعد از حضور بیش از 1 ساعت بیرون منزل دچار بیحالی و ضعف می شوند. به دنبال تعیین علت هستند",
+        "assistant": "ecff61d8-4bba-4357-ae02-9abec23f7b1c",
+        "height": "173",
+        "weight": "79",
+        "bmi": "26.4",
+        "assitant_notes": "سابقه کم خونی فقر آهن از چند سال گذشته/ گاها دارو از جمله لیرافورت 30 مصرف می کردند/ علایم افت فشار خون و بی حالی/ زردی و رنگ پریدگی پوست که الان بهتر شدند\nمصرف لیودونال 80 میلی گرم هر روز برای کم خونی از 17 بهمن 404 \nسابقه شوک آنافیلاکسی با مصرف پنی سیلین/ سابقه حساسیت به اکثر آنتی بیوتیک ها از جمله سفکسیم و آموکسی سیلین (مطمین نبودند)\nسابقه جراحی رینوپلاستی سال 404\nمجرد/ تست پاپ اسمیر نداده اند/ رابطه جنسی ندارند\nتنبلی تخمدان و مشلات رحمی منفی/ مشکلات کلیوی منفی\nمصرف سیگار و الکل و قلیان منفی\nسابقه کم کاری تیرویید در خاله ها/ سابقه کم خونی فقرآهن مادر\n\n"
+      },
+      "doctor_visit_record": {
+        "id": "54e1ea68-b197-404b-a0bc-a8fc0460dd1d",
+        "is_visible": true,
+        "is_deleted": false,
+        "deleted_at": null,
+        "created_at": "2026-04-10T13:26:07.347Z",
+        "updated_at": "2026-04-10T13:26:07.347Z",
+        "hash_record": null,
+        "doctor_prescription": "درخواست فریتین و tsh ",
+        "doctor_chief_complaint": "ضعف و بی خوابی ",
+        "present_illness": "بهبود نسبی علایم بعد شروع اهن و لوتیروکسین شروع بی خوابی ",
+        "assessment": "بررسی از جهت کمبود اهن",
+        "diagnosis": "کمبود اهپ",
+        "treatment_plan": "درخواست فریتین و tsh ",
+        "prescription_tracking_code": "10078",
+        "referral_need": null,
+        "referral_specialty": null,
+        "follow_up_need": true,
+        "follow_up_date": "2026-04-19T20:30:00.000Z"
+      }
+    }
+  },
+  "message": "EHR details fetched successfully"
+}

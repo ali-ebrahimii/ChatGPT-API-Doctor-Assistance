@@ -1,0 +1,34 @@
+{
+  "status": 200,
+  "error": null,
+  "data": {
+    "id": "68510cf1-0017-42eb-8706-c66390567c31",
+    "phone": "989912936130",
+    "national_id": "0040742482",
+    "is_verified": true,
+    "general_profile": {
+      "id": "287ba812-344b-4fd4-a545-181fb5421b97",
+      "first_name": "مریم",
+      "last_name": "نیکوقدیرلی",
+      "biography": null,
+      "profile_picture": null
+    },
+    "demographic_profile": {
+      "weight": null,
+      "height": null,
+      "blood_type": null,
+      "marital_status": null,
+      "birth_date": "1964-02-29T00:00:00.000Z",
+      "gender": "FEMALE",
+      "death_status": "ALIVE",
+      "basic_insurance_type": null,
+      "insurance_relation": null,
+      "insurance_expirating_date": null,
+      "insurance_start_date": null,
+      "insurance_company_name": null
+    },
+    "medical_profile": null,
+    "hasPassword": false
+  },
+  "message": null
+}

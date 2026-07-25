@@ -1,0 +1,282 @@
+{
+  "status": 200,
+  "error": null,
+  "data": {
+    "id": "ccb7f52a-99d4-438a-b25e-9bc5b8a69e33",
+    "is_visible": true,
+    "is_deleted": false,
+    "deleted_at": null,
+    "created_at": "2026-02-07T09:47:18.852Z",
+    "updated_at": "2026-02-07T09:47:18.852Z",
+    "hash_record": null,
+    "user": "e2b2f0be-3651-4b0b-9859-99e43a0e7df2",
+    "allergies": [
+      {
+        "id": "27c7aa29-0130-44be-8b0a-3ca789a462c4",
+        "is_visible": true,
+        "is_deleted": false,
+        "deleted_at": null,
+        "created_at": "2026-05-24T05:21:30.803Z",
+        "updated_at": "2026-05-24T05:21:30.803Z",
+        "hash_record": null,
+        "substance": "بادام زمینی",
+        "type": "food",
+        "severity": "خفیف"
+      }
+    ],
+    "underlying_conditions": [
+      {
+        "id": "c584d3ed-099f-4a74-889d-633b449881f3",
+        "is_visible": true,
+        "is_deleted": false,
+        "deleted_at": null,
+        "created_at": "2026-05-24T05:21:30.781Z",
+        "updated_at": "2026-05-24T05:21:30.781Z",
+        "hash_record": null,
+        "disease": {
+          "id": "1eb1d965-ea1c-42ed-ae92-a60c9242d707",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-02-08T02:18:37.002Z",
+          "updated_at": "2026-02-08T02:18:37.002Z",
+          "hash_record": null,
+          "fa_name": "فشار خون بالا",
+          "en_name": "Essential Hypertension",
+          "short_name": "HTN",
+          "code": "I10",
+          "disease_type": [
+            "non_infectious",
+            "underlying_condition"
+          ]
+        },
+        "note": "",
+        "severity": "خفیف",
+        "onset_date": "2026-05-24T08:51:28.619Z",
+        "resolved_date": null,
+        "status": "active"
+      },
+      {
+        "id": "e76a92ea-08e6-493a-9a47-20ae1d0ea7b2",
+        "is_visible": true,
+        "is_deleted": false,
+        "deleted_at": null,
+        "created_at": "2026-05-24T05:21:30.781Z",
+        "updated_at": "2026-05-24T05:21:30.781Z",
+        "hash_record": null,
+        "disease": {
+          "id": "b7c6e2b8-5049-4e27-92ac-7e7035df2e1e",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-02-14T10:49:11.281Z",
+          "updated_at": "2026-02-14T10:49:11.281Z",
+          "hash_record": null,
+          "fa_name": "نقرس",
+          "en_name": "Gout",
+          "short_name": "",
+          "code": "M10",
+          "disease_type": [
+            "underlying_condition"
+          ]
+        },
+        "note": "",
+        "severity": "خفیف",
+        "onset_date": "2026-05-24T08:51:28.619Z",
+        "resolved_date": null,
+        "status": "active"
+      },
+      {
+        "id": "e7177485-36bd-4a66-8b93-2fcf255c9d45",
+        "is_visible": true,
+        "is_deleted": false,
+        "deleted_at": null,
+        "created_at": "2026-05-24T05:21:30.781Z",
+        "updated_at": "2026-05-24T05:21:30.781Z",
+        "hash_record": null,
+        "disease": {
+          "id": "1bab7f02-c529-4394-85ed-919c7ec12c49",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-02-08T07:54:25.046Z",
+          "updated_at": "2026-02-08T07:54:25.046Z",
+          "hash_record": null,
+          "fa_name": " چربی خون بالا",
+          "en_name": "Hyperlipidemia",
+          "short_name": "HLD",
+          "code": "E78.5",
+          "disease_type": [
+            "underlying_condition",
+            "non_infectious"
+          ]
+        },
+        "note": "",
+        "severity": "خفیف",
+        "onset_date": "2026-05-24T08:51:28.619Z",
+        "resolved_date": null,
+        "status": "active"
+      },
+      {
+        "id": "595d97a8-f65d-4a70-bff5-933c38e0aa5e",
+        "is_visible": true,
+        "is_deleted": false,
+        "deleted_at": null,
+        "created_at": "2026-05-24T05:21:30.781Z",
+        "updated_at": "2026-05-24T05:21:30.781Z",
+        "hash_record": null,
+        "disease": {
+          "id": "fb501315-e0b0-428c-9a08-8104941d812a",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-02-08T02:38:16.893Z",
+          "updated_at": "2026-02-08T02:38:16.893Z",
+          "hash_record": null,
+          "fa_name": "آرتریت روماتوئید",
+          "en_name": "Rheumatoid Arthritis",
+          "short_name": "RA",
+          "code": "M05",
+          "disease_type": [
+            "non_infectious",
+            "underlying_condition",
+            "autoimmune"
+          ]
+        },
+        "note": "",
+        "severity": "خفیف",
+        "onset_date": "2026-05-24T08:51:28.619Z",
+        "resolved_date": null,
+        "status": "active"
+      }
+    ],
+    "hospitalizations": [
+      {
+        "id": "fa11a7ef-778b-4f5e-985a-4e568ed6d0ab",
+        "is_visible": true,
+        "is_deleted": false,
+        "deleted_at": null,
+        "created_at": "2026-05-24T05:21:30.844Z",
+        "updated_at": "2026-05-24T05:21:30.844Z",
+        "hash_record": null,
+        "duration": 6,
+        "admission_date": "2026-02-12T20:30:00.000Z",
+        "discharge_date": "2026-02-18T20:30:00.000Z",
+        "description": "بستری فشار خون"
+      }
+    ],
+    "surgical_histories": [],
+    "family_records": [
+      {
+        "id": "ac91bfa1-75e5-4f80-bc96-3563e7028899",
+        "is_visible": true,
+        "is_deleted": false,
+        "deleted_at": null,
+        "created_at": "2026-05-24T05:21:30.818Z",
+        "updated_at": "2026-05-24T05:21:30.818Z",
+        "hash_record": null,
+        "relation": "پدر",
+        "disease": {
+          "id": "6b8b61a9-bcce-4118-8af3-c743f9d1197f",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-02-15T09:54:50.518Z",
+          "updated_at": "2026-02-15T09:54:50.518Z",
+          "hash_record": null,
+          "fa_name": "سابقه خانوادگی فشار خون بالا",
+          "en_name": "Family History of Hypertension",
+          "short_name": "HTN",
+          "code": "Z",
+          "disease_type": [
+            "family_history"
+          ]
+        }
+      },
+      {
+        "id": "53a23774-686d-41c9-a05a-3762868205bb",
+        "is_visible": true,
+        "is_deleted": false,
+        "deleted_at": null,
+        "created_at": "2026-05-24T05:21:30.818Z",
+        "updated_at": "2026-05-24T05:21:30.818Z",
+        "hash_record": null,
+        "relation": "مادر",
+        "disease": {
+          "id": "6b8b61a9-bcce-4118-8af3-c743f9d1197f",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-02-15T09:54:50.518Z",
+          "updated_at": "2026-02-15T09:54:50.518Z",
+          "hash_record": null,
+          "fa_name": "سابقه خانوادگی فشار خون بالا",
+          "en_name": "Family History of Hypertension",
+          "short_name": "HTN",
+          "code": "Z",
+          "disease_type": [
+            "family_history"
+          ]
+        }
+      }
+    ],
+    "ehr_prescription": [
+      {
+        "id": "b4f44da2-fffe-4218-b6c3-a9d3e259ee0a",
+        "is_visible": true,
+        "is_deleted": false,
+        "deleted_at": null,
+        "created_at": "2026-05-24T05:21:30.831Z",
+        "updated_at": "2026-05-24T05:21:30.831Z",
+        "hash_record": null,
+        "drug": "LOSARTAN POTASSIUM 25MG TAB",
+        "usage": "هر ۱۲ ساعت"
+      },
+      {
+        "id": "8d2ea0f2-72b3-4452-84e0-5301011bb875",
+        "is_visible": true,
+        "is_deleted": false,
+        "deleted_at": null,
+        "created_at": "2026-05-24T05:21:30.831Z",
+        "updated_at": "2026-05-24T05:21:30.831Z",
+        "hash_record": null,
+        "drug": "ATORVASTATIN 20 mg TABLET ORAL",
+        "usage": "روزانه یک عدد"
+      },
+      {
+        "id": "4c259b08-9a1f-4219-bdc2-ba000ca6571d",
+        "is_visible": true,
+        "is_deleted": false,
+        "deleted_at": null,
+        "created_at": "2026-05-24T05:21:30.831Z",
+        "updated_at": "2026-05-24T05:21:30.831Z",
+        "hash_record": null,
+        "drug": "CURCUMIN KAREN CAPSULE ORAL",
+        "usage": "روزانه"
+      },
+      {
+        "id": "820ffd96-031f-4511-8379-3b5566ddbc23",
+        "is_visible": true,
+        "is_deleted": false,
+        "deleted_at": null,
+        "created_at": "2026-05-24T05:21:30.831Z",
+        "updated_at": "2026-05-24T05:21:30.831Z",
+        "hash_record": null,
+        "drug": "CELECOXIB 200MG CAP",
+        "usage": "در صورت نیاز"
+      },
+      {
+        "id": "405115d5-3851-45c1-864f-5bcb24af11db",
+        "is_visible": true,
+        "is_deleted": false,
+        "deleted_at": null,
+        "created_at": "2026-05-24T05:21:30.831Z",
+        "updated_at": "2026-05-24T05:21:30.831Z",
+        "hash_record": null,
+        "drug": "INDOMETHACIN 75 mg TABLET, EXTENDED RELEASE ORAL",
+        "usage": "در صورت نیاز"
+      }
+    ]
+  },
+  "message": "Found General Record Successfully"
+}

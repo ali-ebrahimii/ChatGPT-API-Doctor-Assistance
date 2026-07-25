@@ -1,0 +1,34 @@
+{
+  "status": 200,
+  "error": null,
+  "data": {
+    "id": "a74c8587-f70c-400e-8937-cde77526f26e",
+    "phone": "989386479133",
+    "national_id": "0019525583",
+    "is_verified": true,
+    "general_profile": {
+      "id": "9bc26327-b32b-425b-96bf-694ac92e0369",
+      "first_name": "فاطمه",
+      "last_name": "حبیبی جو",
+      "biography": null,
+      "profile_picture": null
+    },
+    "demographic_profile": {
+      "weight": null,
+      "height": null,
+      "blood_type": null,
+      "marital_status": null,
+      "birth_date": "1996-10-30T00:00:00.000Z",
+      "gender": "FEMALE",
+      "death_status": "ALIVE",
+      "basic_insurance_type": null,
+      "insurance_relation": null,
+      "insurance_expirating_date": null,
+      "insurance_start_date": null,
+      "insurance_company_name": null
+    },
+    "medical_profile": null,
+    "hasPassword": true
+  },
+  "message": null
+}

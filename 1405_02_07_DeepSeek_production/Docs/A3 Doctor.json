@@ -1,0 +1,231 @@
+{
+  "status": 200,
+  "error": null,
+  "data": {
+    "generalRecord": {
+      "id": "8c6699fb-540c-4e9d-911c-c863b32abb72",
+      "is_visible": true,
+      "is_deleted": false,
+      "deleted_at": null,
+      "created_at": "2026-02-16T04:51:16.002Z",
+      "updated_at": "2026-02-16T04:51:16.002Z",
+      "hash_record": null,
+      "user": "bcbb238c-029c-432b-ace8-f10f02607ab3",
+      "allergies": [
+        {
+          "id": "02d5b184-598b-4c8e-9829-6d60a3681094",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-18T08:47:21.602Z",
+          "updated_at": "2026-04-18T08:47:21.602Z",
+          "hash_record": null,
+          "substance": "موارد دیگر",
+          "type": "medication",
+          "severity": "خفیف"
+        }
+      ],
+      "underlying_conditions": [
+        {
+          "id": "f4658a5d-7f74-4ced-8d11-f19ac39d0367",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-18T08:47:21.581Z",
+          "updated_at": "2026-04-18T08:47:21.581Z",
+          "hash_record": null,
+          "disease": {
+            "id": "413485ac-343b-4d5d-901c-c39f9a1f002a",
+            "is_visible": true,
+            "is_deleted": false,
+            "deleted_at": null,
+            "created_at": "2026-02-14T10:44:55.840Z",
+            "updated_at": "2026-02-14T10:44:55.840Z",
+            "hash_record": null,
+            "fa_name": "میگرن",
+            "en_name": "Migraine",
+            "short_name": "",
+            "code": "G43",
+            "disease_type": [
+              "underlying_condition"
+            ]
+          },
+          "note": "",
+          "severity": "خفیف",
+          "onset_date": "2026-04-18T08:47:46.224Z",
+          "resolved_date": null,
+          "status": "active"
+        },
+        {
+          "id": "1af87894-010c-44e5-a4ba-b8ec27cbe8f0",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-18T08:47:21.581Z",
+          "updated_at": "2026-04-18T08:47:21.581Z",
+          "hash_record": null,
+          "disease": {
+            "id": "121b7ca8-c30d-4a4a-9168-3a460910a3eb",
+            "is_visible": true,
+            "is_deleted": false,
+            "deleted_at": null,
+            "created_at": "2026-02-08T02:44:15.667Z",
+            "updated_at": "2026-02-08T02:44:15.667Z",
+            "hash_record": null,
+            "fa_name": "کم‌کاری تیروئید (هایپوتیروئیدیسم)",
+            "en_name": "Hypothyroidism",
+            "short_name": "",
+            "code": "E03",
+            "disease_type": [
+              "non_infectious",
+              "underlying_condition"
+            ]
+          },
+          "note": "",
+          "severity": "خفیف",
+          "onset_date": "2026-04-18T08:47:46.224Z",
+          "resolved_date": null,
+          "status": "active"
+        },
+        {
+          "id": "94b1e230-0090-454c-bb6c-1c5457155df1",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-18T08:47:21.581Z",
+          "updated_at": "2026-04-18T08:47:21.581Z",
+          "hash_record": null,
+          "disease": {
+            "id": "6400cad9-06c9-44ff-b62f-8a4c5998b15c",
+            "is_visible": true,
+            "is_deleted": false,
+            "deleted_at": null,
+            "created_at": "2026-02-14T11:17:03.431Z",
+            "updated_at": "2026-02-14T11:17:03.431Z",
+            "hash_record": null,
+            "fa_name": "دیابت بارداری (حاملگی)",
+            "en_name": "Gestational Diabetes",
+            "short_name": "GDM",
+            "code": "O24",
+            "disease_type": [
+              "underlying_condition"
+            ]
+          },
+          "note": "",
+          "severity": "خفیف",
+          "onset_date": "2026-04-18T08:47:46.224Z",
+          "resolved_date": null,
+          "status": "active"
+        }
+      ],
+      "hospitalizations": [],
+      "surgical_histories": [
+        {
+          "id": "341ff198-6a0f-4e56-9966-84d90a40662c",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-18T08:47:21.618Z",
+          "updated_at": "2026-04-18T08:47:21.618Z",
+          "hash_record": null,
+          "type": "شکم",
+          "do_date": "2025-08-12T20:30:00.000Z"
+        },
+        {
+          "id": "63366da5-5a77-4c4c-b2b0-7cbde9c0d00c",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-18T08:47:21.618Z",
+          "updated_at": "2026-04-18T08:47:21.618Z",
+          "hash_record": null,
+          "type": "ناحیه سر و صورت",
+          "do_date": "2015-02-16T20:30:00.000Z"
+        }
+      ],
+      "family_records": [
+        {
+          "id": "9ef1e90e-037e-4580-97aa-309074809edc",
+          "is_visible": true,
+          "is_deleted": false,
+          "deleted_at": null,
+          "created_at": "2026-04-18T08:47:21.610Z",
+          "updated_at": "2026-04-18T08:47:21.610Z",
+          "hash_record": null,
+          "relation": "پدر",
+          "disease": {
+            "id": "e52ffdf5-a0cf-4328-bc72-5d704f446f1b",
+            "is_visible": true,
+            "is_deleted": false,
+            "deleted_at": null,
+            "created_at": "2026-02-08T07:14:07.134Z",
+            "updated_at": "2026-02-08T07:14:07.134Z",
+            "hash_record": null,
+            "fa_name": "سابقه خانوادگی بیماری ایسکمیک قلبی",
+            "en_name": "Family history of ischaemic heart disease and other diseases of the circulatory system",
+            "short_name": "",
+            "code": "Z82.4",
+            "disease_type": [
+              "family_history"
+            ]
+          }
+        }
+      ],
+      "ehr_prescription": []
+    },
+    "visitRecord": {
+      "id": "ac39d9e0-0a7c-434b-abc5-8b51a1189c5c",
+      "is_visible": true,
+      "is_deleted": false,
+      "deleted_at": null,
+      "created_at": "2026-04-18T08:27:09.285Z",
+      "updated_at": "2026-04-18T16:52:01.136Z",
+      "hash_record": null,
+      "user": "bcbb238c-029c-432b-ace8-f10f02607ab3",
+      "slot_id": "f4a8f445-1882-404b-8b49-fb189c85c402",
+      "visit": "6f08468b-bfa0-4e58-aadc-4256f5c4644b",
+      "visit_status": "completed",
+      "patient_chief_complaint": [
+        "سردرد و بیماری‌های مغز و اعصاب"
+      ],
+      "patient_notes": null,
+      "lab_test_records": [],
+      "assistant_visit_record": {
+        "id": "1f21ef48-26f0-44f9-a97c-7e3a0bb33a77",
+        "is_visible": true,
+        "is_deleted": false,
+        "deleted_at": null,
+        "created_at": "2026-04-18T08:47:22.266Z",
+        "updated_at": "2026-04-18T08:47:22.273Z",
+        "hash_record": null,
+        "assistant_chief_complaint": "سردرد های شدید\nنوبت جهت برای مشورت با پزشک جهت تجویز مجدد دارو اخذ گردیده است\n",
+        "assistant": "59b654c0-0c47-4539-9c2d-a84eec46725b",
+        "height": "156",
+        "weight": "70",
+        "bmi": "28.76",
+        "assitant_notes": "سابقه حساسیت به پنتاپرازول ذکر می شود.\n"
+      },
+      "doctor_visit_record": {
+        "id": "5879f587-4832-41ba-81ff-2958deaa7d4c",
+        "is_visible": true,
+        "is_deleted": false,
+        "deleted_at": null,
+        "created_at": "2026-04-18T16:52:01.121Z",
+        "updated_at": "2026-04-18T16:52:01.121Z",
+        "hash_record": null,
+        "doctor_prescription": "تمدید نسخه و سونو تیرویید",
+        "doctor_chief_complaint": "سردرد و چاقی",
+        "present_illness": "سردرد از روز گذشته بهتر شده ، تمدید نسخه",
+        "assessment": "خوب",
+        "diagnosis": "میگرن",
+        "treatment_plan": "تمدید نسخه و سونو تیرویید",
+        "prescription_tracking_code": "77323",
+        "referral_need": null,
+        "referral_specialty": null,
+        "follow_up_need": null,
+        "follow_up_date": null
+      }
+    }
+  },
+  "message": "EHR details fetched successfully"
+}
